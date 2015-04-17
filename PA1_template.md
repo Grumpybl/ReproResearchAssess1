@@ -47,7 +47,7 @@ library(ggplot2)
 qplot(total.steps, xlab = "Total Steps", ylab = "Frequency", main = "Histogram of Daily Steps") + geom_histogram(colour="black", fill="purple")
 ```
 
-![](PA1_templateBL2_files/figure-html/histogram-1.png) 
+![](PA1_template_files/figure-html/histogram-1.png) 
 
 #### 2. Calculate and report the mean and median total number of steps taken per day
 
@@ -93,7 +93,7 @@ library(lattice)
 xyplot(mean.steps ~ time, data=daily.pattern, type="l", grid=TRUE, ylab="Average number of steps", xlab="5-min. intervals", main="Average number of steps per 5-minutes interval")
 ```
 
-![](PA1_templateBL2_files/figure-html/mean steps time plot-1.png) 
+![](PA1_template_files/figure-html/mean steps time plot-1.png) 
 
 2.  Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -186,7 +186,7 @@ with(newDailyStepSum, {
 })
 ```
 
-![](PA1_templateBL2_files/figure-html/Imputed Histogram-1.png) 
+![](PA1_template_files/figure-html/Imputed Histogram-1.png) 
 
 #### Compare means and medians of original and imputed datasets.
 
@@ -271,4 +271,4 @@ xyplot(
 )
 ```
 
-![](PA1_templateBL2_files/figure-html/panel plot-1.png) 
+![](PA1_template_files/figure-html/panel plot-1.png) 
